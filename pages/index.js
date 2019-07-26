@@ -35,6 +35,7 @@ const Index = () => {
   return (
     <>
       <Link href="/LoginPage"><button className="btn btn-success">Login</button></Link>
+      <Link href="/ReplaceReplace"><button className="btn btn-danger">NO!</button></Link>
     </>
   )
 }
