@@ -1,5 +1,4 @@
 import React from 'react'
-import { connect } from 'react-redux'
 import { fetchUserData } from '../store'
 
 import ConfirmAlert from '../components/ConfirmAlert'
@@ -41,13 +40,9 @@ const renderUserData = () => {
 LoginPage.getInitialProps = async({ reduxStore }) => {
     await reduxStore.dispatch(fetchUserData())
 
-    return {}
-}
-
-const mapStateToProps = state => {
-    return { 
-        userData: state.userData
+    return {
+        userData: reduxStore.getState().userData
     }
 }
 
-export default connect(mapStateToProps)(LoginPage)
+export default LoginPage

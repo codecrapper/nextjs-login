@@ -21,33 +21,42 @@ var _jsxFileName = "C:\\Users\\Geon\\Desktop\\nextcrap\\nextjs-loginpage\\pages\
 
 
 
-var ReplaceReplace = function ReplaceReplace() {
+var ReplaceReplace = function ReplaceReplace(_ref) {
+  var initialState = _ref.initialState;
   return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 6
     },
     __self: this
-  }, "Hey");
+  }, "Hey", react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("h1", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  }, initialState.url));
 };
 
 ReplaceReplace.getInitialProps =
 /*#__PURE__*/
 function () {
-  var _ref2 = Object(_babel_runtime_corejs2_helpers_esm_asyncToGenerator__WEBPACK_IMPORTED_MODULE_1__["default"])(
+  var _ref3 = Object(_babel_runtime_corejs2_helpers_esm_asyncToGenerator__WEBPACK_IMPORTED_MODULE_1__["default"])(
   /*#__PURE__*/
-  _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee(_ref) {
+  _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee(_ref2) {
     var reduxStore;
     return _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee$(_context) {
       while (1) {
         switch (_context.prev = _context.next) {
           case 0:
-            reduxStore = _ref.reduxStore;
+            reduxStore = _ref2.reduxStore;
             _context.next = 3;
             return reduxStore.dispatch(Object(_store__WEBPACK_IMPORTED_MODULE_3__["fetchUserData"])());
 
           case 3:
-            return _context.abrupt("return", {});
+            return _context.abrupt("return", {
+              initialState: reduxStore.getState()
+            });
 
           case 4:
           case "end":
@@ -58,7 +67,7 @@ function () {
   }));
 
   return function (_x) {
-    return _ref2.apply(this, arguments);
+    return _ref3.apply(this, arguments);
   };
 }();
 
@@ -67,4 +76,4 @@ function () {
 /***/ })
 
 })
-//# sourceMappingURL=ReplaceReplace.js.0879066711bfb1ad9cc5.hot-update.js.map
+//# sourceMappingURL=ReplaceReplace.js.5aee52f640f457b74d7a.hot-update.js.map

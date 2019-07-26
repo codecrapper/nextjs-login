@@ -69080,19 +69080,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_asyncToGenerator__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/asyncToGenerator */ "./node_modules/@babel/runtime-corejs2/helpers/esm/asyncToGenerator.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
-/* harmony import */ var _store__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../store */ "./store.js");
-/* harmony import */ var _components_ConfirmAlert__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/ConfirmAlert */ "./components/ConfirmAlert.js");
-/* harmony import */ var _components_NavBar__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/NavBar */ "./components/NavBar.js");
-/* harmony import */ var _components_Stats__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/Stats */ "./components/Stats.js");
-/* harmony import */ var _components_ApiKeySection__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../components/ApiKeySection */ "./components/ApiKeySection.js");
-/* harmony import */ var _components_GraphApiUse__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../components/GraphApiUse */ "./components/GraphApiUse.js");
-/* harmony import */ var _components_PriceTable__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../components/PriceTable */ "./components/PriceTable.js");
-/* harmony import */ var _components_Footer__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../components/Footer */ "./components/Footer.js");
+/* harmony import */ var _store__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../store */ "./store.js");
+/* harmony import */ var _components_ConfirmAlert__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/ConfirmAlert */ "./components/ConfirmAlert.js");
+/* harmony import */ var _components_NavBar__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/NavBar */ "./components/NavBar.js");
+/* harmony import */ var _components_Stats__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/Stats */ "./components/Stats.js");
+/* harmony import */ var _components_ApiKeySection__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/ApiKeySection */ "./components/ApiKeySection.js");
+/* harmony import */ var _components_GraphApiUse__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../components/GraphApiUse */ "./components/GraphApiUse.js");
+/* harmony import */ var _components_PriceTable__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../components/PriceTable */ "./components/PriceTable.js");
+/* harmony import */ var _components_Footer__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../components/Footer */ "./components/Footer.js");
 
 
 var _jsxFileName = "C:\\Users\\Geon\\Desktop\\nextcrap\\nextjs-loginpage\\pages\\LoginPage.js";
-
 
 
 
@@ -69107,65 +69105,65 @@ var LoginPage = function LoginPage(_ref) {
   var userData = _ref.userData;
 
   var renderUserData = function renderUserData() {
-    return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_2___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_ConfirmAlert__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_2___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_ConfirmAlert__WEBPACK_IMPORTED_MODULE_4__["default"], {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 17
+      },
+      __self: this
+    }), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_NavBar__WEBPACK_IMPORTED_MODULE_5__["default"], {
       __source: {
         fileName: _jsxFileName,
         lineNumber: 18
-      },
-      __self: this
-    }), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_NavBar__WEBPACK_IMPORTED_MODULE_6__["default"], {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 19
       },
       __self: this
     }), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
       className: "container",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 20
+        lineNumber: 19
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("br", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 21
+        lineNumber: 20
       },
       __self: this
     }), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("br", {
       __source: {
         fileName: _jsxFileName,
+        lineNumber: 20
+      },
+      __self: this
+    }), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_Stats__WEBPACK_IMPORTED_MODULE_6__["default"], {
+      __source: {
+        fileName: _jsxFileName,
         lineNumber: 21
       },
       __self: this
-    }), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_Stats__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    }), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_ApiKeySection__WEBPACK_IMPORTED_MODULE_7__["default"], {
       __source: {
         fileName: _jsxFileName,
         lineNumber: 22
       },
       __self: this
-    }), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_ApiKeySection__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    }), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_GraphApiUse__WEBPACK_IMPORTED_MODULE_8__["default"], {
       __source: {
         fileName: _jsxFileName,
         lineNumber: 23
       },
       __self: this
-    }), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_GraphApiUse__WEBPACK_IMPORTED_MODULE_9__["default"], {
+    }), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_PriceTable__WEBPACK_IMPORTED_MODULE_9__["default"], {
       __source: {
         fileName: _jsxFileName,
         lineNumber: 24
       },
       __self: this
-    }), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_PriceTable__WEBPACK_IMPORTED_MODULE_10__["default"], {
+    }), console.log(userData)), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_Footer__WEBPACK_IMPORTED_MODULE_10__["default"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 25
-      },
-      __self: this
-    }), console.log(userData)), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_Footer__WEBPACK_IMPORTED_MODULE_11__["default"], {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 28
+        lineNumber: 27
       },
       __self: this
     }));
@@ -69177,7 +69175,7 @@ var LoginPage = function LoginPage(_ref) {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35
+      lineNumber: 34
     },
     __self: this
   }, renderUserData());
@@ -69196,10 +69194,12 @@ function () {
           case 0:
             reduxStore = _ref2.reduxStore;
             _context.next = 3;
-            return reduxStore.dispatch(Object(_store__WEBPACK_IMPORTED_MODULE_4__["fetchUserData"])());
+            return reduxStore.dispatch(Object(_store__WEBPACK_IMPORTED_MODULE_3__["fetchUserData"])());
 
           case 3:
-            return _context.abrupt("return", {});
+            return _context.abrupt("return", {
+              userData: reduxStore.getState().userData
+            });
 
           case 4:
           case "end":
@@ -69214,13 +69214,7 @@ function () {
   };
 }();
 
-var mapStateToProps = function mapStateToProps(state) {
-  return {
-    userData: state.userData
-  };
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_3__["connect"])(mapStateToProps)(LoginPage));
+/* harmony default export */ __webpack_exports__["default"] = (LoginPage);
 
 /***/ }),
 
