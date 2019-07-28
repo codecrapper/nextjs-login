@@ -10,16 +10,16 @@ const NavBar = ({ dispatch }) => {
     }
 
     return (
-        <nav class="navbar navbar-expand-lg" style={{backgroundColor: "#5F41F3", padding: "10px"}}>
+        <nav className="navbar navbar-expand-lg" style={{backgroundColor: "#5F41F3", padding: "10px"}}>
             <div className="container">
                 <Link href="/LoginPage"><img style={{ width: "6rem", overflow: "hidden"}} src="https://scrapethis.io/images/logo.png" /></Link>
 
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <Link href="/PlanPrices"><button class="btn btn-success my-2 my-sm-0" type="submit">Upgrade</button></Link>
+                <ul className="navbar-nav">
+                    <li className="nav-item">
+                        <Link href="/PlanPrices"><button className="btn btn-success my-2 my-sm-0" type="submit">Upgrade</button></Link>
                     </li>
-                    <li class="nav-item" style={{paddingLeft: ".5rem"}}>
-                        <Link href="/index"><button onClick={logOutClick} class="btn btn-light my-2 my-sm-0" type="submit">Logout</button></Link>
+                    <li className="nav-item" style={{paddingLeft: ".5rem"}}>
+                        <Link href="/index"><button onClick={logOutClick} className="btn btn-light my-2 my-sm-0" type="submit">Logout</button></Link>
                     </li>
                 </ul>
 

@@ -13,9 +13,9 @@ const ApiKeySection = ({ userData }) => {
                     <p className="card-text" style={{color: "#CA254E", backgroundColor: "#F9F2F4"}}>{userData.key}</p>
                     <hr className="my-4" />
                     <h5>Test ScrapeThis.io right now</h5>
-                        <div class="card bg-light mb-3">
-                            <div class="card-body">
-                                <p class="card-text">$ curl api.scrapethis.io?key=[KEY]&url=https://example.com
+                        <div className="card bg-light mb-3">
+                            <div className="card-body">
+                                <p className="card-text">$ curl api.scrapethis.io?key=[KEY]&url=https://example.com
 </p>
                             </div>
                         </div>
