@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 5);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -664,67 +664,31 @@ __webpack_require__.r(__webpack_exports__);
 var _jsxFileName = "C:\\Users\\Geon\\Desktop\\nextcrap\\nextjs-loginpage\\pages\\index.js";
 
 
- // class Index extends React.Component {
-//   static getInitialProps ({ reduxStore, req }) {
-//     const isServer = !!req
-//     reduxStore.dispatch(fetchUserData())
-//     return {}
-//   }
-//   // componentDidMount () {
-//   //   const { dispatch } = this.props
-//   //   this.timer = startClock(dispatch)
-//   // }
-//   // componentWillUnmount () {
-//   //   clearInterval(this.timer)
-//   // }
-//   render () {
-//     return (
-//       <>
-//       {/* <Examples /> */}
-//         <Link href="/LoginPage"><button className="btn btn-success">Login</button></Link>
-//       </>
-//     )
-//   }
-// }
-// export default connect()(Index)
+
 
 var Index = function Index() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
     href: "/LoginPage",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37
+      lineNumber: 8
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
     className: "btn btn-success",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37
+      lineNumber: 8
     },
     __self: this
-  }, "Login")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    href: "/ReplaceReplace",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 38
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
-    className: "btn btn-danger",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 38
-    },
-    __self: this
-  }, "NO!")));
+  }, "Logins")));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_1__["connect"])()(Index));
 
 /***/ }),
 
-/***/ 5:
+/***/ 3:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/

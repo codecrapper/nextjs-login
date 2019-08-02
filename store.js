@@ -2,6 +2,7 @@ import fetch from 'node-fetch'
 import { createStore, applyMiddleware } from 'redux'
 import { composeWithDevTools } from 'redux-devtools-extension'
 import thunkMiddleware from 'redux-thunk'
+import axios from 'axios'
 
 const exampleInitialState = {
   lastUpdate: 0,
@@ -99,11 +100,10 @@ export const resetCount = () => dispatch => {
 // fetch user data action
 export const fetchUserData = () => async dispatch => {
   dispatch(startFetching())
-  let res = await fetch(`https://api.scrapethis.io/crapper/`)
-  let data = await res.json()
+  let data = await axios.get(`https://api.scrapethis.io/crapper/`)
   dispatch(finishFetching())
 
-  return dispatch({ type: 'FETCH_USER_DATA', payload: data})
+  return dispatch({ type: 'FETCH_USER_DATA', payload: data.data})
 }
 
 export const startFetching = () => {
