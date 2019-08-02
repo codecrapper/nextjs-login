@@ -1,4 +1,4 @@
-webpackHotUpdate("static\\development\\pages\\FormStripe.js",{
+webpackHotUpdate("static\\development\\pages\\_app.js",{
 
 /***/ "./components/Form.js":
 /*!****************************!*\
@@ -73,7 +73,8 @@ function (_React$Component) {
                 e.preventDefault();
                 _context.next = 3;
                 return _this.props.stripe.createToken({
-                  name: _this.state.name
+                  name: _this.state.name,
+                  amount: _this.state.amount
                 });
 
               case 3:
@@ -178,7 +179,51 @@ function (_React$Component) {
           lineNumber: 48
         },
         __self: this
-      }, "Charge")));
+      }, "Charge")), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("form", {
+        action: "/charge",
+        method: "post",
+        id: "payment-form",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 51
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", {
+        className: "form-row",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 52
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("label", {
+        for: "card-element",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 53
+        },
+        __self: this
+      }, "Credit or debit card"), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", {
+        id: "card-element",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 56
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", {
+        id: "card-errors",
+        role: "alert",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 59
+        },
+        __self: this
+      })), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("button", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 62
+        },
+        __self: this
+      }, "Submit Payment")));
     }
   }]);
 
@@ -190,4 +235,4 @@ function (_React$Component) {
 /***/ })
 
 })
-//# sourceMappingURL=FormStripe.js.473e00bc3f38f2cfac4b.hot-update.js.map
+//# sourceMappingURL=_app.js.3d3a3f32113e83d19fad.hot-update.js.map

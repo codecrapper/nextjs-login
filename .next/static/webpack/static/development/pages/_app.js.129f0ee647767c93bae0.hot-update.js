@@ -179,7 +179,51 @@ function (_React$Component) {
           lineNumber: 48
         },
         __self: this
-      }, "Charge")));
+      }, "Charge")), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("form", {
+        action: "/charge",
+        method: "post",
+        id: "payment-form",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 50
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", {
+        class: "form-row",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 51
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("label", {
+        for: "card-element",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 52
+        },
+        __self: this
+      }, "Credit or debit card"), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", {
+        id: "card-element",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 55
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", {
+        id: "card-errors",
+        role: "alert",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 58
+        },
+        __self: this
+      })), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("button", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 61
+        },
+        __self: this
+      }, "Submit Payment")));
     }
   }]);
 
@@ -191,4 +235,4 @@ function (_React$Component) {
 /***/ })
 
 })
-//# sourceMappingURL=_app.js.3113c1f0cc7c7f350991.hot-update.js.map
+//# sourceMappingURL=_app.js.129f0ee647767c93bae0.hot-update.js.map

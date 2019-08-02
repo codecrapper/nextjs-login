@@ -73,7 +73,8 @@ function (_React$Component) {
                 e.preventDefault();
                 _context.next = 3;
                 return _this.props.stripe.createToken({
-                  name: _this.state.name
+                  name: _this.state.name,
+                  amount: _this.state.amount
                 });
 
               case 3:
@@ -190,4 +191,4 @@ function (_React$Component) {
 /***/ })
 
 })
-//# sourceMappingURL=_app.js.473e00bc3f38f2cfac4b.hot-update.js.map
+//# sourceMappingURL=_app.js.4554d79340176136c769.hot-update.js.map
