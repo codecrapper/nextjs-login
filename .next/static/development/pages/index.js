@@ -14936,7 +14936,7 @@ var _jsxFileName = "C:\\Users\\Geon\\Desktop\\nextcrap\\nextjs-loginpage\\pages\
 
 
 var Index = function Index() {
-  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_3__["useState"])(),
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_3__["useState"])(''),
       _useState2 = Object(_babel_runtime_corejs2_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_2__["default"])(_useState, 2),
       test = _useState2[0],
       setTest = _useState2[1];
@@ -14957,11 +14957,11 @@ var Index = function Index() {
           switch (_context.prev = _context.next) {
             case 0:
               _context.next = 2;
-              return axios__WEBPACK_IMPORTED_MODULE_6___default.a.get("https://api.scrapethis.io/crapper/");
+              return axios__WEBPACK_IMPORTED_MODULE_6___default.a.get("https://jsonplaceholder.typicode.com/posts/1");
 
             case 2:
               data = _context.sent;
-              setTest(data.data);
+              setTest(data.data.title);
 
             case 4:
             case "end":
@@ -14996,13 +14996,13 @@ var Index = function Index() {
       lineNumber: 19
     },
     __self: this
-  }, "Logins")), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("h1", {
+  }, "Login")), console.log(test), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("h1", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 21
     },
     __self: this
-  }, test ? test.url : null));
+  }, test ? test : null));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_4__["connect"])()(Index));
