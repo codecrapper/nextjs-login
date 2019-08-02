@@ -135,7 +135,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/denny/Desktop/Projects/nextjs-login/lib/with-redux-store.js";
+var _jsxFileName = "C:\\Users\\Geon\\Desktop\\nextcrap\\nextjs-loginpage\\lib\\with-redux-store.js";
 
 
 var isServer = typeof window === 'undefined';
@@ -1226,7 +1226,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/denny/Desktop/Projects/nextjs-login/pages/_app.js";
+var _jsxFileName = "C:\\Users\\Geon\\Desktop\\nextcrap\\nextjs-loginpage\\pages\\_app.js";
 
 
 

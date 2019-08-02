@@ -661,7 +661,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_redux__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "/Users/denny/Desktop/Projects/nextjs-login/pages/index.js";
+var _jsxFileName = "C:\\Users\\Geon\\Desktop\\nextcrap\\nextjs-loginpage\\pages\\index.js";
 
 
  // class Index extends React.Component {
@@ -731,7 +731,7 @@ var Index = function Index() {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/denny/Desktop/Projects/nextjs-login/pages/index.js */"./pages/index.js");
+module.exports = __webpack_require__(/*! C:\Users\Geon\Desktop\nextcrap\nextjs-loginpage\pages\index.js */"./pages/index.js");
 
 
 /***/ }),
