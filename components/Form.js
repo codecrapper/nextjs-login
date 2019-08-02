@@ -7,23 +7,22 @@ class Form extends React.Component {
         amount: ""
     }
 
-    handlePaySubmit = (e) => {
+    handlePaySubmit = async (e) => {
         e.preventDefault()
-        console.log("yes")
+        let token = await this.props.stripe.createToken({ name: this.state.name, amount: this.state.amount })
+        console.log(token)
     }
 
     handleNameChange = (e) => {
         this.setState({
             name: e.target.value
         })
-        console.log(this.state.name)
     }
 
     handleAmountChange = (e) => {
         this.setState({
             amount: e.target.value
         })
-        console.log(this.state.amount)
     }
 
     render() {
