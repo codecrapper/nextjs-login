@@ -7,7 +7,11 @@
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/PlanPrices": [
+    "/FormStripe": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/LoginPage": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],

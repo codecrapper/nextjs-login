@@ -16,7 +16,7 @@ const Index = () => {
   }
   return (
     <div>
-      <Link href="/LoginPage/"><button className="btn btn-success">Login</button></Link>
+      <Link href="/LoginPage"><button className="btn btn-success">Login</button></Link>
       {console.log(test)}
       <h1>{test ? test : null}</h1>
     </div>

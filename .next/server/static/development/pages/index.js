@@ -919,7 +919,7 @@ var Index = function Index() {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_5___default.a, {
-    href: "/LoginPage/",
+    href: "/LoginPage",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 19

@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 const PriceTable = () => {
     return (
@@ -13,7 +14,7 @@ const PriceTable = () => {
                         <p>- 1 max concurrent requests</p>
                         <p>- Javascript rendering</p>
                         <p>- Rotating proxies</p>
-                        <a href="#" className="btn btn-primary">Upgrade</a>
+                        <Link href="/FormStripe"><a href="#" className="btn btn-primary">Upgrade</a></Link>
                     </div>
                 </div>
             </div>
@@ -27,7 +28,7 @@ const PriceTable = () => {
                         <p>- 2 max concurrent requests</p>
                         <p>- Javascript rendering</p>
                         <p>- Rotating proxies</p>
-                        <a href="#" className="btn btn-primary">Upgrade</a>
+                        <Link href="/FormStripe"><a href="#" className="btn btn-primary">Upgrade</a></Link>
                     </div>
                 </div>
             </div>
@@ -41,7 +42,7 @@ const PriceTable = () => {
                         <p>- 5 max concurrent requests</p>
                         <p>- Javascript rendering</p>
                         <p>- Rotating proxies</p>
-                        <a href="#" className="btn btn-primary">Upgrade</a>
+                        <Link href="/FormStripe"><a href="#" className="btn btn-primary">Upgrade</a></Link>
                     </div>
                 </div>
             </div>
